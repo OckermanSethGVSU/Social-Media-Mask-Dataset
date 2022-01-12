@@ -7,7 +7,7 @@ The initial published version of this dataset can also be found on [Zenodo](http
 The accompanying paper, along with contact information if you have any questions, can be found on [TODO]().
 
 ## Instructions for Download Script Use
-Below is a step by step walkthrough on how to succesfully use our download script.
+Below is a step by step walkthrough on how to successfully use our download script.
 
 
 ### Before you begin
@@ -21,7 +21,7 @@ Our script makes use of Bash commands and was developed on Ubuntu Linux. If you 
 Ensure you have Python3 installed on your device. Instructions to install Python3 on a linux machine or the linux subsystem on a windows machine can be found on the [Hitch Hikers Guide to Python](https://docs.python-guide.org/starting/install3/linux/). We developed and tested this script using Python 3.8.
 
 ### Running the Script
-To run our script use the command line to navigate to the directory with `testing.json`, `training.json`, and `download_dataset.py`. Then enter the simple command `python3 download_dataset.py`. The script will then inform ask you if you are ready to continue. If you enter yes, the script will ask for your Twitter bearer token. Copy paste it into the command line with no extra spaces or new lines. Your download should now begin.
+To run our script use the command line to navigate to the directory with `testing.json`, `training.json`, and `download_dataset.py`. Then enter the simple command `python3 download_dataset.py`. The script will then ask you if you are ready to continue. If you enter yes, the script will ask for your Twitter bearer token. Copy paste it into the command line with no extra spaces or new lines. Your download should now begin.
 
 ## Guide to Understanding the Dataset
 Below are annotated examples of dataset entries and a numerical breakdown of the contents of the Social Media Mask Dataset.
