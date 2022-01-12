@@ -17,9 +17,6 @@ def pull_tweets(tweetIDs,media_ids,destination,auth,tracker):
     for id in tweetIDs:
         ids += str(id) + ','
 
-
-    #print("Pulling Tweets")
-
     # send request to twitter for tweets and interpret the response as a dictionary
     command = twitter_command + ids[:len(ids) - 1] + expansions + full_auth
     comp_process = subprocess.run(command,stdout=PIPE, stderr=PIPE,shell=True)
@@ -50,9 +47,6 @@ def pull_tweets(tweetIDs,media_ids,destination,auth,tracker):
                                 # move file to appropriate sub folder
                                 mv_image = "mv " + item['media_key'] + ".jpg " + destination
                                 comp_process = subprocess.run(mv_image,stdout=PIPE, stderr=PIPE,shell=True)
-
-                                # add tweet json to the all tweets json
-                                #all_tweets_json[media_id] = tweet_dict
 
                             else:
                                 print("Could not download -> Error below")
@@ -188,7 +182,6 @@ if user_ok.lower() == "yes" or user_ok.lower() == "y":
                 data1 = f.read()
         training = json.loads(data)
         testing = json.loads(data1)
-
 
         # get mask and no mask images all in 1 dictionary for train and test_tracker
         training_seperated_dict = seperate_dict(training)
