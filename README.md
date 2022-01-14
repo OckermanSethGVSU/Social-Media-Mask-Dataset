@@ -4,7 +4,6 @@ The Social Media Mask Dataset is a dataset made up of Twitter Images intended fo
 
 The initial published version of this dataset can also be found on [Zenodo](https://doi.org/10.5281/zenodo.5813804).
 
-The accompanying paper, along with contact information if you have any questions, can be found on [TODO]().
 
 ## Instructions for Download Script Use
 Below is a step by step walkthrough on how to successfully use our download script.
