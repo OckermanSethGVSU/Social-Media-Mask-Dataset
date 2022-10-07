@@ -1,6 +1,6 @@
 # Social Media Mask Dataset
 
-The Social Media Mask Dataset is a dataset made up of Twitter Images intended for the training of Convalutional Neural Networks to detect masks in images and video. In this case, the term masks refer to a device worn on the face intended to reduce the spread of respiratory illness. Two categories of images exist: "mask" and "no_mask". All efforts were made to ensure each image contains a person and is viable for training CNN models. For more details the makeup of the dataset and the collection process refer to the accompanying paper.   
+The Social Media Mask Dataset is a dataset made up of Twitter Images intended for the training of Convalutional Neural Networks to detect masks in images and video. In this case, the term masks refer to a device worn on the face intended to reduce the spread of respiratory illness. Two categories of images exist: "mask" and "no_mask". All efforts were made to ensure each image contains a person and is viable for training CNN models. For more details the makeup of the dataset and the collection process refer to the accompanying paper published in IEEE ICMLA 2022.   
 
 The initial published version of this dataset can also be found on [Zenodo](https://doi.org/10.5281/zenodo.5813804).
 
@@ -32,18 +32,4 @@ Due to Twitter's TOS, we cannot directly publish Twitter images. Instead, we pub
 
 
 ### Numerical Breakdown
-As of summer of 2020, there are 12,482 masked and 116,620 unmasked images, totaling approximately 129,000 images (129,102). A breakdown of Tweets per city and time period (year 2020) are shown in the below table. Following the table, a graph showing information on the number of masked and unmasked images taken from each city is shown. For the purposes of model training, we removed duplicate images. Due to a few images being posted under multiple location tags, there is a 10 image discrepancy between the total images listed above and the sum of the listed table and graph number.
-
-| City          | 04/15 - 06/16 | 9/01 - 11/28 |
-|---------------|-------------|--------------|
-| Chicago       | 8709        | 12,110       |
-| Detroit       | 3387        | 5729         |
-| Houston       | 2888        | 13,238       |
-| Los Angeles   | 7752        | 15,337       |
-| Miami         | 6680        | 15,168       |
-| New York      | 5650        | 12,799       |
-| San Francisco | 9050        | 10,615       |
-
-
-
-![Breakdown of Masked and Unmasked Images By City](figures/city_image_breakdown.png)
+As of summer of 2020, there are 12,482 masked and 116,620 unmasked images, totaling approximately 129,000 images (129,102).
