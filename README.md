@@ -33,3 +33,21 @@ Due to Twitter's TOS, we cannot directly publish Twitter images. Instead, we pub
 
 ### Numerical Breakdown
 As of summer of 2020, there are 12,482 masked and 116,620 unmasked images, totaling approximately 129,000 images (129,102).
+
+
+### Citation
+
+If you use this dataset, please cite
+
+```
+@INPROCEEDINGS{10068950,
+  author={Ockerman, Seth and Carrier, Erin},
+  booktitle={2022 21st IEEE International Conference on Machine Learning and Applications (ICMLA)}, 
+  title={Predicting COVID-19 Case Counts using Twitter Image Data}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1695-1701},
+  keywords={COVID-19;Social networking (online);Time series analysis;Blogs;Urban areas;Predictive models;Data models;COVID-19;Twitter analysis;predictive time series;computer vision},
+  doi={10.1109/ICMLA55696.2022.00260}}
+```
