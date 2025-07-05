@@ -1,9 +1,9 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5813804.svg)](https://doi.org/10.5281/zenodo.5813804)
+
+
 # Social Media Mask Dataset
 
 The Social Media Mask Dataset is a dataset made up of Twitter Images intended for the training of Convalutional Neural Networks to detect masks in images and video. In this case, the term masks refer to a device worn on the face intended to reduce the spread of respiratory illness. Two categories of images exist: "mask" and "no_mask". All efforts were made to ensure each image contains a person and is viable for training CNN models. For more details the makeup of the dataset and the collection process refer to the accompanying paper published in IEEE ICMLA 2022.   
-
-The initial published version of this dataset can also be found on [Zenodo](https://doi.org/10.5281/zenodo.5813804).
-
 
 ## Instructions for Download Script Use
 Below is a step by step walkthrough on how to successfully use our download script.
